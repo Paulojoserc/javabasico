@@ -7,9 +7,10 @@ public class Exer03 {
 		Scanner sc = new Scanner(System.in);
 
 		boolean infoValida = false;
-		String name;
+		String name, sexo, estCivil;
 		int idade;
 		double salario;
+		
 		
 		do {
 			System.out.println("Entre com o nome:");
@@ -50,9 +51,35 @@ public class Exer03 {
 		
 		infoValida = false;
 		do {
-		
+			System.out.println("Entre com o sexo: ");
+			sexo = sc.next();
+			
+			if(sexo.equalsIgnoreCase("f") || sexo.equalsIgnoreCase("m")) {
+				infoValida = true;
+			}else {
+				System.out.println("Sexo precisa ser 'f' ou 'm' .");
+			}
 			
 		}while (!infoValida);
+		
+		infoValida = false;
+		do {
+			System.out.println("Entre com seu estado civil");
+			estCivil = sc.next();
+			if(estCivil.equalsIgnoreCase("s") || estCivil.equalsIgnoreCase("c") || 
+					estCivil.equalsIgnoreCase("d") || estCivil.equalsIgnoreCase("v") ) {
+				infoValida = true;
+			}else {
+				System.out.println("Estado civel precisa ser 's', 'c', 'd' ou 'v'");
+			}
+		}while (!infoValida);
+		
+		System.out.println("As seguintes informações foram coletadas");
+		System.out.println("Nome: " +name);
+		System.out.println("Idade: " +idade);
+		System.out.println("Salário: " +salario);
+		System.out.println("Sexo: " +sexo);
+		System.out.println("Estado civil: " +estCivil);
 		
 		sc.close();
 	}
