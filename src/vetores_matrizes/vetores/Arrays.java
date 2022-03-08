@@ -19,6 +19,8 @@ public class Arrays {
 			System.out.println("O valor da temperatura do dia "+(i+1)+" é "+temperaturas[i]);	
 		}
 		
-		System.out.println("Valores do array: ");
+		for (double temp : temperaturas) {
+			System.out.println(temp);
+		}
 	}
 }
