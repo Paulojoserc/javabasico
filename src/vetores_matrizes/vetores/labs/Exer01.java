@@ -13,16 +13,21 @@ public class Exer01 {
 
 			System.out.println("Entre com o valor da posição: " + i);
 			vetorA[i] = sc.nextInt();
-			
+
 			vetorB[i] = vetorA[i];
 		}
-		
-		System.out.println("Vetor A =");
-		for (int i=0; i<vetorA.length; i++) {
-			System.out.print(vetorA[i]+ " ");
+
+		System.out.print("Vetor A =");
+		for (int i = 0; i < vetorA.length; i++) {
+			System.out.print(vetorA[i] + " ");
 		}
 		System.out.println();
 
+		System.out.println("Vetor B = ");
+		for (int i = 0; i < vetorB.length; i++) {
+			System.out.print(vetorB[i] + " ");
+		}
+		System.out.println();
 		sc.close();
 	}
 }
