@@ -2,7 +2,7 @@ package vetores_matrizes.vetores.labs;
 
 import java.util.Scanner;
 
-public class Exer05 {
+public class Exer10 {
 	public static void main(String[] args) {
 		Scanner sc = new Scanner(System.in);
 
@@ -14,7 +14,7 @@ public class Exer05 {
 			System.out.println("Entre com o valor da posição: " + i);
 			vetorA[i] = sc.nextInt();
 
-			vetorB[i] = vetorA[i] * i;
+			vetorB[i] = vetorA[i] % 2;
 		}
 
 		System.out.print("Vetor A = ");
@@ -28,6 +28,7 @@ public class Exer05 {
 			System.out.print(vetorB[i] + " ");
 		}
 		System.out.println();
+
 		sc.close();
 	}
 }
