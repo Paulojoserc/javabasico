@@ -44,6 +44,7 @@ public class Exer09 {
 			System.out.print(vetorC[i] + " ");
 		}
 		System.out.println();
+		df.clone();
 		sc.close();
 	}
 }
