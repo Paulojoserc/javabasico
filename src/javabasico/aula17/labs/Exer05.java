@@ -1,6 +1,6 @@
 package javabasico.aula17.labs;
 
-import java.util.Locale;
+
 import java.util.Scanner;
 
 public class Exer05 {
