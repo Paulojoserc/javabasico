@@ -11,7 +11,7 @@ public static void main(String[] args) {
 	
 	System.out.println(van.marca);
 	System.out.println(van.modelo);
-	
+	System.out.println("--------------------");
 	Carro fusca = new Carro();
 	fusca.marca = "Volkswagen";
 	fusca.modelo = "Fusca";
