@@ -27,5 +27,10 @@ public class Contato {
 		this.email = email;
 	}
 	
+	public String obterInfo() {
+		return "Nome = " +nome+ ";"+
+				"Telefone = "+ telefone+";"+
+				"Email = "+email;
+	}
 	
 }
