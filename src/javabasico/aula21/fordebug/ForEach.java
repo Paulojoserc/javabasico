@@ -1,4 +1,4 @@
-package javabasico.aula21;
+package javabasico.aula21.fordebug;
 
 import java.util.Random;
 

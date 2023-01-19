@@ -1,4 +1,4 @@
-package javabasico.aula17.labs;
+package javabasico.aula17.loops.labs;
 
 import java.util.Scanner;
 

@@ -1,4 +1,4 @@
-package javabasico.aula18.atividade;
+package javabasico.aula18.breakcontinue.atividade;
 
 import java.util.Scanner;
 

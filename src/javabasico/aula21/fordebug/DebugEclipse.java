@@ -1,4 +1,4 @@
-package javabasico.aula21;
+package javabasico.aula21.fordebug;
 
 public class DebugEclipse {
 public static void main(String[] args) {
