@@ -1,8 +1,11 @@
 package javabasico.aula19.arrays.lab;
 
 import java.util.Scanner;
+/*Criar um vetor A com 5 elementos inteiros. Construir um vetor B de
+mesmo tipo e tamanho e com os "mesmos" elementos do vetor A, ou
+seja, B[i] = A[i]. */
 
-public class _01elemntosInteiros {
+public class _01elementosInteiros {
 public static void main(String[] args) {
 	Scanner sc = new Scanner(System.in);
 	int[] vetorA = new int[5];
@@ -14,11 +17,17 @@ public static void main(String[] args) {
 		
 		vetorB[i]= vetorA[i];
 	}
-	System.out.println("Vetor A = ");
+	System.out.print("Vetor A = ");
 	for (int i=0; i<vetorA.length; i++) {
 		System.out.print(vetorA[i] + " ");
 	}
 	System.out.println();
 	
+	System.out.print("Vetor B = ");
+	for (int i=0; i<vetorB.length; i++) {
+		System.out.print(vetorB[i] + " ");
+	}
+	System.out.println();
+	sc.close();
 }
 }
